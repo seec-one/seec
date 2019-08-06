@@ -7,7 +7,6 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title></title>
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" href="./Font-Awesome-3.2.1/css/font-awesome.min.css">
 	<style type="text/css">
 		.op{
 			width:460px;
@@ -74,11 +73,7 @@
 	
 	</div>
 </body>
-<script src="./js/jquery-3.3.1.js"></script>
-<script src="./js/bootstrap.min.js"></script>
-<script>
-
-
-</script>
 
 </html>
+<script src="./js/jquery-3.3.1.js"></script>
+<script src="./js/bootstrap.min.js"></script>
