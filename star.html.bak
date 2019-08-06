@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<style type="text/css">
+			body{
+				background:#f2f5f8;
+			}
+			ul,li{
+				margin:0;
+				padding:0;
+				list-style:none;
+			}
+			.img3{
+				width:100%;
+				height:280px;
+				background-size:100% 100%;
+			}
+			.box{
+				width:800px;
+				float:left;
+				background:#fff;
+			}
+			.box li{
+				width:800px;
+				height:200px;
+				float:left;
+				border-bottom:1px solid #f0f2f5;
+			}
+			.box li img{
+				width:160px;
+				height:90px;
+				float:left;
+				margin-top:20px;
+				margin-left:20px;
+			}
+			.box li span{
+				display:block;
+			}
+			.sp1{
+				width:610px;
+				height:30px;
+				float:left;
+				font-size:16px;
+				color:#2a333c;
+				line-height:30px;
+				margin-top:20px;
+			}
+			.sp2{
+				width:610px;
+				float:left;
+				font-size:14px;
+				color:#a6a8af;
+				margin-left:10px;
+			}
+		/*	.box2{
+				width:265px;
+				height:200px;
+				float:right;
+				background:#fff;
+			}
+			.t{
+				margin-top:30px;
+			}
+		 	.ty{
+				outline:none;
+				border:none;
+				width:225px;
+				height:35px;
+				border-radius:30px;
+				border:1px solid #e4eaec;
+				margin-top:10px;
+				margin-left:20px;
+			}
+			.list{
+				margin-top:20px;
+				margin-left:20px;
+			}
+			.list li{
+				line-height:30px;
+				font-size:15px;
+				color:#2a333c;
+			} */
+	</style>	
+</head>
+
+<body>
+<img src="./img/1541598748.jpg" class="img3" alt="" />
+	<div class="container t">
+			<ul class="box">
+				<li>
+					<img src="./img/thumb.jpg" alt="" />
+					<p class="sp1">【明星辣妈 第五期】辣妈大赛特辑！5天卖货近3万的冠军辣妈！</p>
+					<span class="sp2">时隔2年，我们把辣妈大赛，重新搬上“舞台”，随即涌现出一群，冉冉升起的明星辣妈。首先为大家介绍的，是这次大赛的冠军——Mrs.杨。她，17年10月加入辣妈计划，今年7月，提货81487.9元，8月1-5日大赛期间，创造了5天卖货近3万元的销售神话，掌柜诗加都被震惊啦！我们带着激动的心情，与Mrs.杨进行了一次对话，请她..</span>
+				</li>
+				<li>
+					<img src="./img/thumb (1).jpg" alt="" />
+					<p class="sp1">	【明星辣妈 第四期】从行政文员到明星辣妈，她说：原来我可以这么优秀</p>
+					<span class="sp2">“我是一边上班一边兼顾辣妈计划的。我一直做行政工作，现在还兼出纳，所以比较忙了”， 怀着二胎的元宝，用从容、大方、轻描淡写的语气，诉说着忙碌的生活节奏。“行政管理工作就像管家一样，琐事很多，处理起来要有耐心和细心。我会把本职工作上的耐心和细心带给辣妈客户，我认为做生意也需要这些品质。” 元宝是一名资深的辣妈店主，总结起..</span>
+				</li>
+				<li>
+					<img src="./img/thumb (2).jpg" alt="" />
+					<p class="sp1">【明星辣妈 第三期】从英语老师，到月销售额超过2万元的明星辣妈！</p>
+					<span class="sp2">来源：搜狐时尚    大家好，我是辣妈计划的店主戴戴　　同时也是一位中学的英语老师　　我热爱教师职业，也爱辣妈计划这份事业。     因为信任，我来到了辣妈计划　　公司一成立我就加入了辣妈计划，是最老的辣妈Top10，能和这个平台一起成长，我真的觉得十分荣幸。　　我老公和掌柜诗加是朋友，所以间接</span>
+				</li>
+				<li>
+					<img src="./img/thumb (3).jpg" alt="" />
+					<p class="sp1">【明星辣妈 第二期】她在家待业7年，如今重返职场，活成孩子的榜样！</p>
+					<span class="sp2">来源：太平洋时尚采访的当下，辣妈店主阮昭(zhāo)阳刚刚处理完几个新订单，顺便安排大宝在客厅完成当天的学习任务。她还没来得及开口，婆婆就贴心的接过二宝出门遛弯，一片其乐融融。虽然兼顾着家庭和事业，但接受采访时却没有丝毫疲惫，举手投足之间都是满满的自信。　　可是在去年，她还只是一位默默无闻的全职妈妈。是什么让在家待业7..</span>
+				</li>
+				<li>
+					<img src="./img/thumb (4).jpg" alt="" />
+					<p class="sp1">【明星辣妈 第一期】店主婷婷：细节创造财富</p>
+					<span class="sp2">来源：搜狐网编者注：这是辣妈计划《明星辣妈》专访栏目的第一期，本次我们采访的对象是店主婷婷。店主婷婷是个90后辣妈，看上去特别的精致、有活力。和店主婷婷交流之前，婷婷已经安排好了老公带着大宝出去玩，由此可见她的细心细致。她是一位很普通的妈妈，有两个孩子，与老公独在异乡。但她也是一位不普通的女性，曾创造单月35785.7..</span>
+				</li>
+				<li>
+					<img src="./img/thumb (5).jpg" alt="" />
+					<p class="sp1">【明星辣妈特辑】月入过万的明星辣妈必备的8个关键词，你get了几个？</p>
+					<span class="sp2">集市首届辣椒节在辣妈们的不舍中落下了帷幕看着辣妈们创下的卖货战报真的为大家感到骄傲这次辣椒节又诞生了一大批明星辣妈！辣妈计划上的明星辣妈在她们身上，总能看到不同正能量的关键词勇敢、自信、努力、坚持......小编总结了前八期明星辣妈的成功关键词看看你都get了几个？【1】成功关键词：尝试明星辣妈：戴戴加入时间：2015..</span>
+				</li>
+				<li>
+					<img src="./img/thumb (6).jpg" alt="" />
+					<p class="sp1">【明星辣妈 第九期】月入过万的95后辣妈结婚生子赚钱，我在23岁就完成了</p>
+					<span class="sp2">去年4月，明星辣妈栏目上线这一年，大家见证了很多辣妈的“蜕变记”有勤奋型、努力型、活泼型......那这一期，又是一位怎样的明星辣妈呢？先来透漏下她的标签95后！二胎妈妈！月入过万！她就是本期的明星辣妈晓芳下面就跟着我们一起来看看她的故事吧~晓芳自述    “我今年23岁，这个年龄可能对于现在的小姐姐来说，大学还没毕业..</span>
+				</li>
+				
+			</ul>
+			<!-- <div class="box2">
+				<input type="text" class="ty" placeholder="Search..." />
+				<ul class="list">
+					<li>
+						所有文章
+					</li>
+					<li>
+						项目介绍
+					</li>
+					<li>
+						明星辣妈
+					</li>
+				</ul>
+			</div> -->
+	</div>
+</body>
+</html>
+<script src="./js/jquery-3.3.1.js"></script>
+<script src="./js/bootstrap.min.js"></script>
