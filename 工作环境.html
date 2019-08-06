@@ -10,14 +10,13 @@
 	<link rel="stylesheet" href="./Font-Awesome-3.2.1/css/font-awesome.min.css">
 	<style type="text/css">
 		.op{
-			width:100%;
+			width:460px;
 			height:52px;
-			margin:0 auto;
 			list-style:none;
+			margin:0 auto;
 		}
 		.op li{
 			float:left;
-			z-index:10000;
 			width:100px;
 			height:52px;
 			line-height:52px;
@@ -25,13 +24,30 @@
 			color:#cdced2;
 			text-align:center;
 		}
-		.o{
-		   margin-top:30px;
+		.o{	
+			float:left;
+			width:100%;
+			height:50px;
+		    margin:30px 0 30px 0;
+			line-height:50px;
+			text-align:center;
 		}
-		.p{
+		.p1{
 			display:flex;
 			margin:0 auto;
 			margin-top:50px;
+		}
+		.cen{
+			width:100%;
+			height:52px;
+			float:left;
+			border-bottom:1px solid #f0f2f5;
+		}
+		@media screen and (max-width:800px) {
+			.p1{
+				width:400px;
+				height:400px;
+			}
 		}
 	</style>
 </head>
@@ -39,22 +55,24 @@
 <body>
 	<img src="./img/1517974612.jpg" alt="" style="width:100%;height:100%;"/>
 	<div class="container-fluid">
-		<ul class="op">
-			<li>加入我们</li>
-			<li>壹生福利</li>
-			<li>工作环境</li>
-			<li>团队介绍</li>
-		</ul>
-		<p class="text-center o">高颜值办公环境</p>
-		<img src="./img/1517896248133019.jpg" class="p" alt="" />
-		<p class="text-center o">前台、走廊</p>
-		<img src="./img/1517896201917824.jpg" class="p" alt="" />
-		<p class="text-center o">办公空间</p>
-		<img src="./img/1519464439103435.jpg" class="p" alt="" />
-		<p class="text-center o">茶水间 休息区</p>
-		<img src="./img/1517896233456997.jpg" class="p" alt="" />
-	</div>
+		<div class="cen">
+			<ul class="op">
+				<li>加入我们</li>
+				<li>壹生福利</li>
+				<li>工作环境</li>
+				<li>团队介绍</li>
+			</ul>
+		</div>
+			<p class="o">高颜值办公环境</p>
+			<img src="./img/1517896248133019.jpg" class="p1" alt="" />
+			<p class="o">前台、走廊</p>
+			<img src="./img/1517896201917824.jpg" class="p1" alt="" />
+			<p class="o">办公空间</p>
+			<img src="./img/1519464439103435.jpg" class="p1" alt="" />
+			<p class="o">茶水间 休息区</p>
+			<img src="./img/1517896233456997.jpg" class="p1" alt="" />
 	
+	</div>
 </body>
 <script src="./js/jquery-3.3.1.js"></script>
 <script src="./js/bootstrap.min.js"></script>
