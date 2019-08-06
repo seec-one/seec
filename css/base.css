@@ -1,0 +1,46 @@
+*{
+	margin: 0;padding: 0;
+	list-style: none;
+}
+.headerimg{
+	width: 100%;
+	display: block;
+}
+.listBox{
+	height: 52px;
+	
+}
+.list{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+.list li{
+	padding: 14px;
+}
+.list li a{
+	font-size: 16px;
+	color: #d80808;
+	font-weight: bold;
+}
+.list li a:link {
+	text-decoration: none;
+	color: #d80808;
+	
+}
+
+.list li a:visited {
+	text-decoration: none;
+	color: #90939b;
+}
+
+.list li a:active {
+	text-decoration: none;
+	color: #d80808;
+}
+
+.list li a:hover {
+	text-decoration: none;
+	color: #d80808;
+}
