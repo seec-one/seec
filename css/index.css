@@ -1,0 +1,139 @@
+/* 轮播图 */
+body {
+	width: 100%;
+}
+
+.swiper {
+	width: 100%;
+	margin-top: -30px;
+}
+
+.swiper-container {
+	width: 100%;
+}
+
+.swiper-wrapper {
+	width: 100%;
+}
+
+.swiper img {
+	display: block;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	width: 30px;
+	height: 30px;
+	color: #000;
+}
+
+.main {
+	margin-top: 50px;
+}
+
+.main .main-left1 {
+	padding: 97px 0;
+	text-align: center;
+}
+
+.main .main-left>.col-bottom-img1 {
+	width: 530px;
+	height: 120px;
+}
+
+.main .main-right {
+	background: #f2f5f8;
+	padding: 65px;
+}
+
+.main .main-right>h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.main .main-right>p {
+	font-size: 12px;
+}
+
+.main .main-right>button {
+	margin-top: 10px;
+	padding: 10px 30px;
+	border: 1px solid #000;
+	background: #f2f5f8;
+	font-size: 12px;
+}
+
+.main .main-right>button:hover {
+	color: #fff;
+	background: red;
+	transition: 0.2s
+}
+
+.main .main-right>.btn {
+	background: #fff;
+}
+
+.main .main-left>.col-bottom-img2 {
+	width: 100%;
+	height: 325px;
+}
+
+.main .pattern {
+	background: #f2f4f8;
+	padding:0 0 50px 0;
+}
+
+.main .pattern>div {
+	width: 100%;
+	text-align: center;
+}
+
+.main .pattern>div>h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.main .pattern>div>p {
+	width: 40px;
+	height: 2px;
+	background: #000;
+	margin: auto;
+	margin-bottom:10px;
+}
+/* 新闻 */
+.main .new-header>div {
+	width: 100%;
+	text-align: center;
+}
+.main .new-header>div>h1 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.main .new-header>div>p {
+	width: 40px;
+	height: 2px;
+	background: #000;
+	margin: auto;
+	margin-bottom:10px;
+}
+.main .thumbnail h3{font-size:15px;font-weight:bold}
+.main .thumbnail .caption{text-align: center;}
+.main .thumbnail .caption>div{margin-bottom:20px;}
+.main .thumbnail .caption>div,.main .thumbnail .caption p{color:#777;text-align: left;width: 300px;margin: 0 auto;}
+/* 下轮播 */
+.swiper1{
+	overflow: hidden;
+}
+.row{
+	margin: 0;
+}
+.lunbo{
+	padding: 0;
+}
+
