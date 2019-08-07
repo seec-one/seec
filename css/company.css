@@ -1,0 +1,16 @@
+.logo{
+	display: block;
+	margin: 0 auto;
+	width: 200px;
+	height: 200px;
+}
+.hot{
+	text-align: left;
+	text-indent: 2em;
+}
+p{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 28px;
+}

@@ -1,0 +1,47 @@
+body{
+	background: #f2f5f8;
+}
+.mainLeft{
+	padding: 30px;
+	
+}
+.main-left{
+	background: #fff;
+}
+.tuwen{
+	display: flex;
+	padding: 30px 0;
+	border-bottom: 1px solid #ccc;
+}
+.tuwen-left{
+	padding-right: 30px;
+}
+.tuwen img{
+	display: block;
+	width: 160px;
+	height: 90px;
+}
+.mainRight{
+	padding: 30px;
+	
+}
+.main-right{
+	background: #fff;
+	padding: 20px;
+}
+.main-right input{
+	width: 190px;
+	height: 36px;
+	border: 1px solid #ccc;
+	border-radius: 18px;
+	text-indent: 2em;
+	outline: none;
+}
+nav{
+	text-align: center;
+}
+@media (max-width:760px) {
+	.showhide{
+		display: none;
+	}
+}
