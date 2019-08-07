@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title></title>
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/public.css">
+	<link rel="stylesheet" href="./Font-Awesome-3.2.1/css/font-awesome.css">
 	<style type="text/css">
 		.op{
 			width:460px;
@@ -60,21 +63,170 @@
 </head>
 
 <body>
-	<img src="./img/1517974612.jpg" alt="" style="width:100%;height:100%;"/>
+		<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2"
+					 style='padding:20px'>
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="./img/1478840660.png" alt="" style='padding:20px 0 0 0'></a>
+				</div>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+
+				<ul class="nav navbar-nav navbar-right" style='padding:10px 0'>
+					<li><a href="index.html">首页</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">壹生科技
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./company.html">公司简介</a></li>
+							<li><a href="./person.html">创始人介绍</a></li>
+							<li><a href="./things.html">壹生大事记</a></li>
+							<li><a href="./news.html">新闻报道</a></li>
+							<li><a href="./awards.html">荣誉奖项</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">商务合作
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">联系方式</a></li>
+							<li><a href="#">合作伙伴</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">辣妈计划
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./introduce.html">项目介绍</a></li>
+							<li><a href="./star.html">明星辣妈</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">壹生招聘
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./add.html">加入我们</a></li>
+							<li><a href="./welfare.html">壹生福利</a></li>
+							<li><a href="./enciron.html">工作环境</a></li>
+							<li><a href="./group.html">团队介绍</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!-- 白色导航条 -->
+	<!-- 导航条开始 -->
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					 style='padding:20px'>
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="./img/1478840660.png" alt="" style='padding:20px 0 0 0'></a>
+				</div>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<ul class="nav navbar-nav navbar-right" style='padding:10px 0'>
+					<li><a href="index.html">首页</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">壹生科技
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./company.html">公司简介</a></li>
+							<li><a href="./person.html">创始人介绍</a></li>
+							<li><a href="./things.html">壹生大事记</a></li>
+							<li><a href="./news.html">新闻报道</a></li>
+							<li><a href="./awards.html">荣誉奖项</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">商务合作
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">联系方式</a></li>
+							<li><a href="#">合作伙伴</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">辣妈计划
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./introduce.html">项目介绍</a></li>
+							<li><a href="./star.html">明星辣妈</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">壹生招聘
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./add.html">加入我们</a></li>
+							<li><a href="./welfare.html">壹生福利</a></li>
+							<li><a href="./enciron.html">工作环境</a></li>
+							<li><a href="./group.html">团队介绍</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+		<img src="./img/1517974612.jpg" alt="" style="width:100%;height:100%;"/>
+	</nav>
+	
 	<div class="container-fluid">
 		<div class="cen">
 			<ul class="op">
-				<li>加入我们</li>
-				<li>壹生福利</li>
-				<li>工作环境</li>
-				<li>团队介绍</li>
+				<li><a href="./add.html">加入我们</a></li>
+				<li><a href="./welfare.html">壹生福利</a></li>
+				<li><a href="./enciron.html">工作环境</a></li>
+				<li><a href="./group.html">团队介绍</a></li>
 			</ul>
 		</div>
 		<div class="text-center">
 			<img src="./img/1564120985814505.jpg" class="img1" alt="" />
 		</div>
 	</div>
+
+	<div class='fixed'><span class='icon-chevron-up'></span></div>
+
+
+
+
+<div class="footer-bottom">
+		<div class='container'>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p>友情链接 : / 小尾巴亲子英语</p>
+					<p>厦门壹生信息科技有限公司 LIFETIME LTD. ?2014-2018</p>
+					<p>ICP备案号：闽14017269号</p>
+					<p>增值电信业务经营许可证:闽B2-20160056 </p>
+					<p>辣妈计划，一家登上福布斯的社群电商平台。让妈妈一手带娃一手赚钱，做更好的自己！</p>
+					<p>Powered by MetInfo 6.0.0</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
 </body>
 </html>
 <script src="./js/jquery-3.3.1.js"></script>
 <script src="./js/bootstrap.min.js"></script>
+<script src="./js/public.js"></script>
