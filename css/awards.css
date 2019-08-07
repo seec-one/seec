@@ -1,10 +1,10 @@
-.container{
+.main{
 	text-align: center;
 }
-.container img{
+.main img{
 	width: 803px;
 }
-p{
+.main p{
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
