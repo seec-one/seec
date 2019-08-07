@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title></title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/public.css">
+	<link rel="stylesheet" href="./Font-Awesome-3.2.1/css/font-awesome.css">
+	<style type="text/css">
+
+		.op{
+			width:460px;
+			height:52px;
+			list-style:none;
+			margin:0 auto;
+		}
+		.op li{
+			float:left;
+			width:100px;
+			height:52px;
+			line-height:52px;
+			font-size:16px;
+			color:#cdced2;
+			text-align:center;
+		}
+		.o{	
+			float:left;
+			width:100%;
+			height:50px;
+		    margin:30px 0 30px 0;
+			line-height:50px;
+			text-align:center;
+		}
+		.p1{
+			display:flex;
+			margin:0 auto;
+			margin-top:50px;
+		}
+		.cen{
+			width:100%;
+			height:52px;
+			margin:0 auto;
+			border-bottom:1px solid #f0f2f5;
+		}
+		@media screen and (max-width:800px) {
+			.p1{
+				width:400px;
+				height:400px;
+			}
+		}
+		.lp{
+			width:1170px;
+			
+			line-height:20px;
+			text-align:left;
+			margin:20px auto;
+		}
+		.olp{
+			width:1170px;
+			height:200px;
+			margin:60px auto;
+		}
+		.lo{
+			width:1100px;
+			display:block;
+			margin-top:10px;
+			margin:20px auto;
+		}
+	</style>
+</head>
+
+<body>
+		<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2"
+					 style='padding:20px'>
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="./img/1478840660.png" alt="" style='padding:20px 0 0 0'></a>
+				</div>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+
+				<ul class="nav navbar-nav navbar-right" style='padding:10px 0'>
+					<li><a href="index.html">首页</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">壹生科技
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./company.html">公司简介</a></li>
+							<li><a href="./person.html">创始人介绍</a></li>
+							<li><a href="./things.html">壹生大事记</a></li>
+							<li><a href="./news.html">新闻报道</a></li>
+							<li><a href="./awards.html">荣誉奖项</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">商务合作
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">联系方式</a></li>
+							<li><a href="#">合作伙伴</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">辣妈计划
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./introduce.html">项目介绍</a></li>
+							<li><a href="./star.html">明星辣妈</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">壹生招聘
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./add.html">加入我们</a></li>
+							<li><a href="./welfare.html">壹生福利</a></li>
+							<li><a href="./enciron.html">工作环境</a></li>
+							<li><a href="./group.html">团队介绍</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>
+	<!-- 白色导航条 -->
+	<!-- 导航条开始 -->
+	<nav class="navbar navbar-inverse">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+					 style='padding:20px'>
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="./img/1478840660.png" alt="" style='padding:20px 0 0 0'></a>
+				</div>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<ul class="nav navbar-nav navbar-right" style='padding:10px 0'>
+					<li><a href="#">首页</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">壹生科技
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./company.html">公司简介</a></li>
+							<li><a href="./person.html">创始人介绍</a></li>
+							<li><a href="./things.html">壹生大事记</a></li>
+							<li><a href="./news.html">新闻报道</a></li>
+							<li><a href="./awards.html">荣誉奖项</a></li>
+
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">商务合作
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">联系方式</a></li>
+							<li><a href="#">合作伙伴</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">辣妈计划
+							<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="./introduce.html">项目介绍</a></li>
+							<li><a href="./star.html">明星辣妈</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">壹生招聘
+							<span class="caret"></span></a>
+							<li><a href="./add.html">加入我们</a></li>
+							<li><a href="./welfare.html">壹生福利</a></li>
+							<li><a href="./enciron.html">工作环境</a></li>
+							<li><a href="./group.html">团队介绍</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+		<img src="./img/1517974612.jpg" alt="" style="width:100%;height:100%;"/>
+	</nav>
+	
+	<div class="container-fluid">
+		<div class="cen">
+			<ul class="op">
+					<li><a href="./add.html">加入我们</a></li>
+					<li><a href="./welfare.html">壹生福利</a></li>
+					<li><a href="./enciron.html">工作环境</a></li>
+					<li><a href="./group.html">团队介绍</a></li>
+			</ul>
+		</div>
+	
+		<div class="olp">
+			<p class="lp">
+				<strong>【薪酬福利】</strong>
+			</p>
+			<p class="lp">
+				<span>☆</span>
+				<strong>姨妈假期</strong>
+				<span class="lo">只有更好照顾自己，才能更好工作，女生每月享有1天带薪姨妈假；</span>
+			</p>
+			<p class="lp">
+				<span>☆</span>
+				<strong>五险一金</strong>
+				<span class="lo">为每位亲爱的小伙伴缴纳社会保险：养老保险、医疗保险、失业保险、工伤保险、生育保险，缴纳住房公积金；</span>
+			</p>
+			<p class="lp">
+				<span>☆</span>
+				<strong> 9月一涨薪</strong>
+				<span class="lo">作为高速发展的互联网企业，涨薪的节奏都来得这么快！所有员工每9月就有一次调薪机会，每个员工的价值都会得到相应的回报。突出贡献的员工，你可以比别人更快得到这个机会！</span>
+			</p>
+			<p class="lp">
+				<span>☆</span>
+				<strong> 壹生商学院</strong>
+				<span class="lo">定期开设课程，由北大CEO及管理层主讲，集中培训员工的底层思维、管理能力、职场习惯。思维训练课程包括：批判性思维、产品思维、用户思维等；管理实操课程包括：项目管理、职场修炼等；职场习惯课程包括：时间管理、职场沟通等。</span>
+			</p>
+			<p class="lp">
+				<span>☆</span>
+				<strong>晋升双通道</strong>
+				<span class="lo">管理+专业晋升双通道打开，是人才，终会是SUPER STAR；</span>
+			</p>
+			<p class="lp">
+				<span>☆</span>
+				<strong>弹性工作</strong>
+				<span class="lo">周末双休，弹性工作制，享受国家规定的带薪年休假。</span>
+			</p>
+			<p class="lp">
+				<span>☆</span>
+				<strong>另，还有一些小细节</strong>
+				<span class="lo">公司员工叫CEO为某总，你觉得他敢答应吗？No，你可以直接称呼他的大名、小名~；</span>
+				<span class="lo">有孩子的员工，还可以带娃上班，纳尼，竟然还有这项福利？~</span>
+				<span class="lo">听说，午后茶点，咖啡、水果、各类零食应有尽有~</span>
+				<span class="lo">此处省略1000字~！</span>
+			</p>
+		
+			<div class='fixed'><span class='icon-chevron-up'></span></div>
+
+			<div class="footer-bottom">
+					<div class='container'>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12">
+								<p>友情链接 : / 小尾巴亲子英语</p>
+								<p>厦门壹生信息科技有限公司 LIFETIME LTD. ?2014-2018</p>
+								<p>ICP备案号：闽14017269号</p>
+								<p>增值电信业务经营许可证:闽B2-20160056 </p>
+								<p>辣妈计划，一家登上福布斯的社群电商平台。让妈妈一手带娃一手赚钱，做更好的自己！</p>
+								<p>Powered by MetInfo 6.0.0</p>
+							</div>
+
+						</div>
+					</div>
+				</div>
+		</div>
+	
+		
+	</div>
+
+
+
+</body>
+</html>
+<script src="./js/jquery-3.3.1.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/public.js"></script>
