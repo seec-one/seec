@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
-		<link rel="stylesheet" type="text/css" href="css/person.css" />
+		<link rel="stylesheet" type="text/css" href="css/things.css" />
 	</head>
 	<body>
 		<!-- 白色导航条 -->
@@ -50,7 +50,7 @@
 								<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">联系方式</a></li>
-								<li><a href="people.html">合作伙伴</a></li>
+								<li><a href="#">合作伙伴</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -59,7 +59,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="./introduce.html">项目介绍</a></li>
 							<li><a href="./star.html">明星辣妈</a></li>
-		
+
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -70,7 +70,7 @@
 							<li><a href="./welfare.html">壹生福利</a></li>
 							<li><a href="./enciron.html">工作环境</a></li>
 							<li><a href="./group.html">团队介绍</a></li>
-		
+
 							</ul>
 						</li>
 					</ul>
@@ -109,7 +109,7 @@
 							<li><a href="./things.html">壹生大事记</a></li>
 							<li><a href="./news.html">新闻报道</a></li>
 							<li><a href="./awards.html">荣誉奖项</a></li>
-		
+
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -117,7 +117,7 @@
 								<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">联系方式</a></li>
-								<li><a href="people.html">合作伙伴</a></li>
+								<li><a href="#">合作伙伴</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -136,7 +136,7 @@
 							<li><a href="./welfare.html">壹生福利</a></li>
 							<li><a href="./enciron.html">工作环境</a></li>
 							<li><a href="./group.html">团队介绍</a></li>
-		
+
 							</ul>
 						</li>
 					</ul>
@@ -150,16 +150,14 @@
 		<div class="container listBox">
 			<ul class="list">
 				<li><a href="company.html">公司简介</a></li>
-				<li><a href="javascript:;" class="double">创始人介绍</a></li>
-				<li><a href="things.html">壹生大事记</a></li>
+				<li><a href="person.html">创始人介绍</a></li>
+				<li><a href="javascript:;" class="double">壹生大事记</a></li>
 				<li><a href="news.html">新闻报道</a></li>
 				<li><a href="awards.html">荣誉奖项</a></li>
 			</ul>
 		</div>
 		<div class="container-fluid" style="padding:30px 0;border-top: 1px solid #ccc;">
-			<div class="container">
-				<img class="img-responsive" src="img/person.jpg" >
-			</div>
+			<img class="things" src="img/things.jpg" >
 			
 		</div>
 		<div class="footer-bottom">
@@ -186,3 +184,5 @@
 			<script src="js/bootstrap.js"></script>
 			<script src="js/public.js"></script>
 		</html>
+		
+

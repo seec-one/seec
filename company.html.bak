@@ -9,7 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/base.css"/>
-		<link rel="stylesheet" type="text/css" href="css/person.css" />
+		<link rel="stylesheet" type="text/css" href="css/company.css" />
 	</head>
 	<body>
 		<!-- 白色导航条 -->
@@ -50,7 +50,7 @@
 								<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">联系方式</a></li>
-								<li><a href="people.html">合作伙伴</a></li>
+								<li><a href="#">合作伙伴</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -117,7 +117,7 @@
 								<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">联系方式</a></li>
-								<li><a href="people.html">合作伙伴</a></li>
+								<li><a href="#">合作伙伴</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
@@ -144,45 +144,49 @@
 			</div><!-- /.container-fluid -->
 		</nav>
 		<!-- 导航条结束 -->
-			<div class="container-fluid" style="padding: 0;margin-top: -120px;">
+		<div class="container-fluid" style="padding: 0;margin-top: -120px;">
 			<img class="headerimg img-responsive" src="img/headerimg.jpg" >
 		</div>
 		<div class="container listBox">
 			<ul class="list">
-				<li><a href="company.html">公司简介</a></li>
-				<li><a href="javascript:;" class="double">创始人介绍</a></li>
+				<li><a href="javascript:;" class="double">公司简介</a></li>
+				<li><a href="person.html">创始人介绍</a></li>
 				<li><a href="things.html">壹生大事记</a></li>
 				<li><a href="news.html">新闻报道</a></li>
 				<li><a href="awards.html">荣誉奖项</a></li>
 			</ul>
 		</div>
 		<div class="container-fluid" style="padding:30px 0;border-top: 1px solid #ccc;">
+			<img class="logo img-responsive" src="img/logo.png" >
 			<div class="container">
-				<img class="img-responsive" src="img/person.jpg" >
+				<p class="hot">厦门壹生信息科技有限公司成立于2014年，专注于服务妈妈人群，旗下拥有电商品牌“辣妈计划”和教育品牌“小尾巴亲子英语”。壹生科技曾荣获“2017福布斯中国30U30”、“2018福布斯中国30U30”、“诚信电子商务企业”、“国家高新技术企业”、“厦门十佳优秀雇主企业”等多项荣誉。</p>
+				<p>愿景：技术驱动服务的社群平台</p>
+				<p>使命：让千万妈妈更自信</p>
+				<p>价值观：客户第一 学习发展 拥抱变化 创业精神</p>
 			</div>
 			
 		</div>
 		<div class="footer-bottom">
-				<div class='container'>
-					<div class="row">
-						<div class="col-lg-12 col-md-12 col-sm-12">
-							<p>友情链接 : / 小尾巴亲子英语</p>
-							<p>厦门壹生信息科技有限公司 LIFETIME LTD. ?2014-2018</p>
-							<p>ICP备案号：闽14017269号</p>
-							<p>增值电信业务经营许可证:闽B2-20160056 </p>
-							<p>辣妈计划，一家登上福布斯的社群电商平台。让妈妈一手带娃一手赚钱，做更好的自己！</p>
-							<p>Powered by MetInfo 6.0.0</p>
-						</div>
-		
-					</div>
+		<div class='container'>
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<p>友情链接 : / 小尾巴亲子英语</p>
+					<p>厦门壹生信息科技有限公司 LIFETIME LTD. ?2014-2018</p>
+					<p>ICP备案号：闽14017269号</p>
+					<p>增值电信业务经营许可证:闽B2-20160056 </p>
+					<p>辣妈计划，一家登上福布斯的社群电商平台。让妈妈一手带娃一手赚钱，做更好的自己！</p>
+					<p>Powered by MetInfo 6.0.0</p>
 				</div>
+
 			</div>
-			
-			<!-- 返回顶部 -->
-		<div class='fixed'><span class='icon-chevron-up'></span></div>
-				
-			</body>
-			<script src="js/jquery-3.4.0.js"></script>
-			<script src="js/bootstrap.js"></script>
-			<script src="js/public.js"></script>
-		</html>
+		</div>
+	</div>
+	
+	<!-- 返回顶部 -->
+<div class='fixed'><span class='icon-chevron-up'></span></div>
+		
+	</body>
+	<script src="js/jquery-3.4.0.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/public.js"></script>
+</html>
